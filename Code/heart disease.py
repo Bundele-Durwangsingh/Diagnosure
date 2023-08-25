@@ -22,7 +22,7 @@ training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 print('Accuracy on Training data : ', training_data_accuracy)
 print('Accuracy on Test data : ', test_data_accuracy)
 
-pickle.dump(model,open('model.pkl','wb'))
+#pickle.dump(model,open('model.pkl','wb'))
 
 
 
