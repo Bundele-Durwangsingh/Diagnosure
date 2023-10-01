@@ -1,0 +1,61 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Georgia, serif;
+    }
+
+.bg-image {
+    background-image: url(Lung-Cancer_img1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+h1 {
+        text-align: center;
+        -webkit-text-stroke: 1px;
+        color: white;
+    }
+
+form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        opacity: 1;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #999999;
+    }
+
+label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333333;
+    }
+
+input,
+select {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #cccccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+
+input[type="submit"] 
+        {
+            background-color: #006699;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    
+input[type="submit"]:hover 
+        {
+            background-color: #004466;
+        }
