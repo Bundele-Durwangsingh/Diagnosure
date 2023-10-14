@@ -4,8 +4,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.ensemble import RandomForestClassifier
+import pickle
 
-df = pd.read_csv("D:\project\major project implementation\Data\survey lung cancer.csv")
+df = pd.read_csv("D:\project\Integrated Health Prognosis using Deep Learning\Data\lc.csv")
 df.head()
 
 ds= pd.DataFrame(df)
@@ -30,18 +31,4 @@ RF.fit(X_train, y_train)
 pred_rf = RF.predict(X_test)
 print("Accuracy score for Random Forest")
 print(RF.score(X_test,y_test))
-input_data = (0,59,1,1,1,1,2,1,2,1,2,2,1,2)
-
-#change the input data to a numpy array
-input_data_as_numpy_array = np.asarray(input_data)
-
-#reshape the numpy array as we are predicting for only on instance
-input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
-
-prediction = RF.predict(input_data_reshaped)
-print(prediction)
-
-if (prediction[0] == 0):
-    print('The Person does not have a lung cancer')
-else:
-    print('The Person might have lung cancer')
+pickle.dump(RF,open('lungs_model.pkl','wb'))

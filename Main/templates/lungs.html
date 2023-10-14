@@ -8,6 +8,13 @@
 </head>
 
 <body>
+    {%if label%}
+    {%if label ==1 %}
+    <h3 style="color: red; text-align: center;">Might have Cancer</h3>
+    {%else%}
+    <h3 style="color: green; text-align: center;">Might not have lungs Cancer</h3>
+    {%endif%}
+    {%endif%}
     <div class="main">
         <div class="register">
             <h2>Lung Cancer Prediction</h2>
@@ -45,11 +52,11 @@
                 <label>Yellow Fingers: </label>
                 <br><br>
                 &nbsp; &nbsp; &nbsp;&nbsp;
-                <input type="radio" id="ylw-fin" name="ylw-fin" value="2" required>
+                <input type="radio" id="ylw_fin" name="ylw_fin" value="2" required>
                 &nbsp;
                 <span for="yellow-finger">Yes</span>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <input type="radio" id="ylw-fin" name="ylw-fin" value="1" required>
+                <input type="radio" id="ylw_fin" name="ylw_fin" value="1" required>
                 &nbsp;
                 <span for="yellow-finger">No</span>
                 <br><br>
