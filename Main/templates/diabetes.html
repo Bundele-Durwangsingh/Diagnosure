@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Integrated Healthcare Prognosis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/diastyle.css') }}">
+</head>
+
+<body>
+    {%if label%}
+    {%if label ==1 %}
+    <h3 style="color: red; text-align: center;">Might have Diabetes</h3>
+    {%else%}
+    <h3 style="color: green; text-align: center;">Might not have Diabetes</h3>
+    {%endif%}
+    {%endif%}
+    <div class="main">
+        <div class="register">
+            <h2>Diabetes Prediction</h2>
+            <form id="enter" action="/dp_predict" method="post">
+
+                <label>Gender: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="gen_male" name="gen" value="1" required>
+                &nbsp;
+                <span for="gen_male">Male</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="gen_female" name="gen" value="0" required>
+                &nbsp;
+                <span for="gen_female">Female</span>
+                <br><br>
+
+                <label for="age">Age: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="number" id="age" name="age" required>
+                <br><br>
+
+                <label>Hypertension: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="hyper" name="hyper" value="1" required>
+                &nbsp;
+                <span for="hypertension">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="hyper" name="hyper" value="0" required>
+                &nbsp;
+                <span for="hypertension">No</span>
+                <br><br>
+
+                <label>Heart Disease: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="hd" name="hd" value="1" required>
+                &nbsp;
+                <span for="heart_disease">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="hd" name="hd" value="0" required>
+                &nbsp;
+                <span for="heart_disease">No</span>
+                <br><br>
+
+                <label for="smoking_history">Smoking History: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <select id="sh" name="sh" required>
+                    <option value="">Select</option>
+                    <option value="0">No Info</option>
+                    <option value="1">Never</option>
+                    <option value="2">Former</option>
+                    <option value="3">Not Current</option>
+                    <option value="4">Sometimes</option>
+                    <option value="5">Everyday</option>
+                </select>
+                <br><br>
+
+                <label for="body_mass_index">Body Mass Index: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="text" id="bmi" name="bmi" required step="0.01">
+                <br><br>
+
+                <label for="hblvl">HbA1c_Level: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="number" id="hl" name="hl" required step="0.01">
+                <br><br>
+
+                <label for="blood_glucose_level">Blood Glucose Level: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="number" id="bgl" name="bgl" required>
+                <br><br>
+
+                <input type="submit" value="Predict" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

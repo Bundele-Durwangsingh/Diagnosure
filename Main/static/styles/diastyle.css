@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(diabck_img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.main{
+    width: 500px;
+    margin: 100px auto 100px auto;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form {
+    margin-left: 140px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: normal;
+}
+input[type="submit"]{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: #006699;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+input[type="submit"]:hover 
+        {
+            background-color: #004466;
+        }
+label,span,h2{
+    text-shadow: 1px, 1px, 5px, rgba(0, 0, 0, 0.3) ;
+}

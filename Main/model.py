@@ -14,6 +14,8 @@ app = Flask(__name__)
 
 model_hdp = pickle.load(open('model.pkl', 'rb'))
 model_lcp = pickle.load(open('lungs_model.pkl', 'rb'))
+model_dp = pickle.load(open('diabetes_model.pkl', 'rb'))
+model =load_model('BrainTumor10Epochs.h5')
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -81,22 +83,33 @@ def lcp_predict():
         return render_template('lungs.html', label=-1)
 
 
+@app.route('/diabetes.html')
+def dp():
+    return render_template('diabetes.html')
 
 
+@app.route('/dp_predict', methods=['POST'])
+def dp_predict():
+    gen = int(request.form.get('gen'))
+    age = int(request.form.get('age'))
+    hyper = int(request.form.get("hyper"))
+    hd = int(request.form.get("hd"))
+    sh = int(request.form.get("sh"))
+    bmi = float(request.form.get("bmi"))
+    hl = float(request.form.get("hl"))
+    bgl = int(request.form.get("bgl"))
 
+    input_data = (gen,age,hyper,hd,sh,bmi,hl,bgl)
+    input_data_as_numpy_array = np.asarray(input_data)
+    input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
 
+    prediction = model_dp.predict(input_data_reshaped)
+    print(prediction)
+    if prediction == 1:
+        return render_template('diabetes.html', label=1)
+    else:
+        return render_template('diabetes.html', label=-1)
 
-
-
-
-
-
-
-
-
-
-
-model =load_model('BrainTumor10Epochs.h5')
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 
