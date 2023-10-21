@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import os
 import tensorflow as tf
-import numpy as np
 from PIL import Image
 import cv2
 from keras.models import load_model
@@ -15,7 +14,8 @@ app = Flask(__name__)
 model_hdp = pickle.load(open('model.pkl', 'rb'))
 model_lcp = pickle.load(open('lungs_model.pkl', 'rb'))
 model_dp = pickle.load(open('diabetes_model.pkl', 'rb'))
-model =load_model('BrainTumor10Epochs.h5')
+model =load_model('braintumor10Epochs.h5')
+
 @app.route('/')
 def home():
     return render_template('index.html')
