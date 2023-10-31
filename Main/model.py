@@ -115,9 +115,9 @@ print('Model loaded. Check http://127.0.0.1:5000/')
 
 def get_className(classNo):
 	if classNo==0:
-		return "No Brain Tumor"
+		return "No you dont have Brain Tumor"
 	elif classNo==1:
-		return "Yes Brain Tumor"
+		return "Yes you have Brain Tumor"
 
 def getResult(img):
     image = cv2.imread(img)

@@ -1,7 +1,9 @@
 body {
   background-color: #e6e6e6;
   font-family: Arial, sans-serif;
-  background-image: url(heart.jpeg);
+  background: url(diabck_img1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {

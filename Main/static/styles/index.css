@@ -1,6 +1,11 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
+    background: url(indexbg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 150px;
+    padding: 150px;
 }
 
 h1 {
