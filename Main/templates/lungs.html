@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Integrated Healthcare Prognosis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/lungs.css') }}">
+</head>
+
+<body>
+    {%if label%}
+    {%if label ==1 %}
+    <h3 style="color: red; text-align: center;">Might have Cancer</h3>
+    {%else%}
+    <h3 style="color: green; text-align: center;">Might not have lungs Cancer</h3>
+    {%endif%}
+    {%endif%}
+    <div class="main">
+        <div class="register">
+            <h2>Lung Cancer Prediction</h2>
+            <form id="enter" action="/lcp_predict" method="post">
+
+                <label>Gender: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="gen_male" name="gen" value="1" required>
+                &nbsp;
+                <span for="gen_male">Male</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="gen_female" name="gen" value="0" required>
+                &nbsp;
+                <span for="gen_female">Female</span>
+                <br><br>
+
+                <label for="age">Age: </label><br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="number" id="age" name="age" required>
+                <br><br>
+
+                <label>Smoking: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="smoke" name="smoke" value="2" required>
+                &nbsp;
+                <span for="smoke">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="smoke" name="smoke" value="1" required>
+                &nbsp;
+                <span for="smoke">No</span>
+                <br><br>
+
+                <label>Yellow Fingers: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="ylw_fin" name="ylw_fin" value="2" required>
+                &nbsp;
+                <span for="yellow-finger">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="ylw_fin" name="ylw_fin" value="1" required>
+                &nbsp;
+                <span for="yellow-finger">No</span>
+                <br><br>
+
+                <label>Anxiety: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="anx" name="anx" value="2" required>
+                &nbsp;
+                <span for="anxiety">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="anx" name="anx" value="1" required>
+                &nbsp;
+                <span for="anxiety">No</span>
+                <br><br>
+
+                <label>Chronic Disease: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="cd" name="cd" value="2" required>
+                &nbsp;
+                <span for="chronic-disease">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="cd" name="cd" value="1" required>
+                &nbsp;
+                <span for="chronic-disease">No</span>
+                <br><br>
+
+                <label>Fatigue: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="fati" name="fati" value="2" required>
+                &nbsp;
+                <span for="fatigue">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="fati" name="fati" value="1" required>
+                &nbsp;
+                <span for="fatigue">No</span>
+                <br><br>
+
+                <label>Allergy: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="alg" name="alg" value="2" required>
+                &nbsp;
+                <span for="allergy">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="alg" name="alg" value="1" required>
+                &nbsp;
+                <span for="allergy">No</span>
+                <br><br>
+
+                <label>Wheezing: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="whz" name="whz" value="2" required>
+                &nbsp;
+                <span for="wheezing">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="whz" name="whz" value="1" required>
+                &nbsp;
+                <span for="wheezing">No</span>
+                <br><br>
+
+                <label>Alcohol Consuming: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="alc" name="alc" value="2" required>
+                &nbsp;
+                <span for="alcohol-consuming">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="alc" name="alc" value="1" required>
+                &nbsp;
+                <span for="alcohol-consuming">No</span>
+                <br><br>
+
+                <label>Coughing: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="cough" name="cough" value="2" required>
+                &nbsp;
+                <span for="coughing">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="cough" name="cough" value="1" required>
+                &nbsp;
+                <span for="coughing">No</span>
+                <br><br>
+
+                <label>Shortness of breath: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="sb" name="sb" value="2" required>
+                &nbsp;
+                <span for="shortness-of-breath">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="sb" name="sb" value="1" required>
+                &nbsp;
+                <span for="shortness-of-breath">No</span>
+                <br><br>
+
+                <label>Swallowing Difficulty: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="sd" name="sd" value="2" required>
+                &nbsp;
+                <span for="swallowing-difficulty">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="sd" name="sd" value="1" required>
+                &nbsp;
+                <span for="swallowing-difficulty">No</span>
+                <br><br>
+
+                <label>Chest Pain: </label>
+                <br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="cp" name="cp" value="2" required>
+                &nbsp;
+                <span for="chest-pain">Yes</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" id="cp" name="cp" value="1" required>
+                &nbsp;
+                <span for="chest-pain">No</span>
+                <br><br>
+
+                <input type="submit" value="Predict" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
