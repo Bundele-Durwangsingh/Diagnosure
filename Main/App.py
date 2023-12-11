@@ -11,17 +11,19 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
-model_hdp = pickle.load(open("model.pkl", "rb"))
+model_hdp = pickle.load(open("heart_model.pkl", "rb"))
 model_lcp = pickle.load(open("lungs_model.pkl", "rb"))
 model_dp = pickle.load(open("diabetes_model.pkl", "rb"))
 model = load_model("braintumor10Epochs.h5")
 
 
+# code segment for index page
 @app.route("/")
 def home():
     return render_template("index.html")
 
 
+# code segment for heart disease predection
 @app.route("/heart.html")
 def heart():
     return render_template("heart.html")
@@ -67,6 +69,7 @@ def predict():
         return render_template("heart.html", label=-1)
 
 
+# code segment for lungs cancer predection
 @app.route("/lungs.html")
 def lcp():
     return render_template("lungs.html")
@@ -114,6 +117,7 @@ def lcp_predict():
         return render_template("lungs.html", label=-1)
 
 
+# code segment for diabetes predection
 @app.route("/diabetes.html")
 def dp():
     return render_template("diabetes.html")
@@ -145,6 +149,7 @@ def dp_predict():
 print("Model loaded. Check http://127.0.0.1:5000/")
 
 
+# code segment for brain tumour predection
 def get_className(classNo):
     if classNo == 0:
         return "No you dont have Brain Tumor"
