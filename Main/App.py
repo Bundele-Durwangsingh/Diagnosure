@@ -146,7 +146,7 @@ def dp_predict():
         return render_template("diabetes.html", label=-1)
 
 
-print("Model loaded. Check http://127.0.0.1:5000/")
+
 
 
 # code segment for brain tumour predection
