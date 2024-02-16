@@ -1,31 +1,339 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background: url(indexbg.jpg);
-    background-size: cover;
-    background-position: center;
-    margin: 150px;
-    padding: 150px;
+  width: 144rem;
+}.index-BSm {
+  box-sizing: border-box;
+  padding: 3.4rem 10.2rem 10.9rem 12rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.index-BSm .navbar-JGV {
+  margin: 0rem 2.9rem 12.7rem 0rem;
+  width: calc(100% - 2.9rem);
+  height: 8.7rem;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT {
+  margin-right: 30.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .weblogo-N1T {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding: 1.6rem 1.8rem 2.1rem 1.9rem;
+  height: 100%;
+  background-color: #595af1;
+  border-radius: 4.35rem;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .weblogo-N1T .programmer-1-tEh {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .title-CFP {
+  margin: 1.7rem 0rem 0.8rem 0rem;
+  height: calc(100% - 2.5rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .title-CFP .diagno-Kau {
+  margin-bottom: 0.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .title-CFP .sure-dLh {
+  margin-top: 0.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #595af1;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB {
+  margin-bottom: 0.8rem;
+  display: flex;
+  column-gap: 4.5rem;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .about-6EH {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .explore-ciR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .experts-MR7 {
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .contact-Tyw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .indexdesign-ky3 {
+  margin: 0rem 0rem 10.5rem 0.95rem;
+  width: 120.85rem;
+  height: 47.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.index-BSm .indexdesign-ky3 .transforming-healthcare-with-cutting-edge-technology-our-website-pioneers-a-revolutionary-ml-powered-integrated-prognosis-system-5VX {
+  width: 67rem;
+  height: 21.9rem;
+  position: absolute;
+  left: 0;
+  top: 14.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+}
+.index-BSm .indexdesign-ky3 .clip-path-group-vm3 {
+  width: 55.3rem;
+  height: 47.5rem;
+  position: absolute;
+  left: 65.55rem;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.index-BSm .button-r8u {
+  margin: 0rem 51.8rem 0rem 47.5rem;
+  box-sizing: border-box;
+  padding: 1.35rem 2.4rem 2.25rem 3.35rem;
+  width: calc(100% - 99.3rem);
+  display: flex;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.7rem;
+  flex-shrink: 0;
+}
+.index-BSm .button-r8u .explor-9Nu {
+  margin-right: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .button-r8u .vector-4Vs {
+  margin-top: 0.9rem;
+  width: 5.7rem;
+  height: 3.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group-3bhf-oQy .contact-right,
+.auto-group-3bhf-oQy .contact-right form,
+.auto-group-3bhf-oQy .contact-right input[type="text"],
+.auto-group-3bhf-oQy .contact-right input[type="email"],
+.auto-group-3bhf-oQy .contact-right textarea,
+.auto-group-3bhf-oQy .contact-right button {
+    font-size: large;
+}
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: center;
 }
 
-h1 {
-    font-size: 28px;
-    margin-top: 40px;
+.modal-content {
+  background-color: #fef9f9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  width: 36rem;
+  text-align: center;
+  position: center;
+  margin-top: 150px;
 }
 
-.disease-button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+/* Button Styles */
+.button-r8u {
+  display: inline-block;
+  margin: 200px;
 }
 
-.disease-button:hover {
-    background-color: #2980b9;
+.explor-9Nu {
+  background-color: #0000000;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.vector-4Vs {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.explorebutton-9pH {
+  box-sizing: border-box;
+  padding: 3rem 3.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  
+}
+.explorebutton-9pH .optionbutton-TKB {
+  width: 100%;
+  height: 100%;
+  row-gap: 2.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.explorebutton-9pH .optionbutton-TKB .hdp-PTj {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .lcp-SS1 {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .dp-Wwf {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .btd-CZb {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
 }

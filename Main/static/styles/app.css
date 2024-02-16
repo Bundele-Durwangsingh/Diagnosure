@@ -1,0 +1,1591 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.index-BSm {
+  box-sizing: border-box;
+  padding: 3.4rem 10.2rem 10.9rem 12rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.index-BSm .navbar-JGV {
+  margin: 0rem 2.9rem 12.7rem 0rem;
+  width: calc(100% - 2.9rem);
+  height: 8.7rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT {
+  margin-right: 30.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .weblogo-N1T {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding: 1.6rem 1.8rem 2.1rem 1.9rem;
+  height: 100%;
+  background-color: #595af1;
+  border-radius: 4.35rem;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .weblogo-N1T .programmer-1-tEh {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .title-CFP {
+  margin: 1.7rem 0rem 0.8rem 0rem;
+  height: calc(100% - 2.5rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .title-CFP .diagno-Kau {
+  margin-bottom: 0.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .logotitle-DPT .title-CFP .sure-dLh {
+  margin-top: 0.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #595af1;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB {
+  margin-bottom: 0.8rem;
+  display: flex;
+  column-gap: 4.5rem;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .about-6EH {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .explore-ciR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .experts-MR7 {
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .navbar-JGV .menus-wsB .contact-Tyw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .indexdesign-ky3 {
+  margin: 0rem 0rem 10.5rem 0.95rem;
+  width: 120.85rem;
+  height: 47.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.index-BSm .indexdesign-ky3 .transforming-healthcare-with-cutting-edge-technology-our-website-pioneers-a-revolutionary-ml-powered-integrated-prognosis-system-5VX {
+  width: 67rem;
+  height: 21.9rem;
+  position: absolute;
+  left: 0;
+  top: 14.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+}
+.index-BSm .indexdesign-ky3 .clip-path-group-vm3 {
+  width: 55.3rem;
+  height: 47.5rem;
+  position: absolute;
+  left: 65.55rem;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.index-BSm .button-r8u {
+  margin: 0rem 51.8rem 0rem 47.5rem;
+  box-sizing: border-box;
+  padding: 1.35rem 2.4rem 2.25rem 3.35rem;
+  width: calc(100% - 99.3rem);
+  display: flex;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.7rem;
+  flex-shrink: 0;
+}
+.index-BSm .button-r8u .explor-9Nu {
+  margin-right: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-BSm .button-r8u .vector-4Vs {
+  margin-top: 0.9rem;
+  width: 5.7rem;
+  height: 3.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group-3bhf-oQy .contact-right,
+.auto-group-3bhf-oQy .contact-right form,
+.auto-group-3bhf-oQy .contact-right input[type="text"],
+.auto-group-3bhf-oQy .contact-right input[type="email"],
+.auto-group-3bhf-oQy .contact-right textarea,
+.auto-group-3bhf-oQy .contact-right button {
+    font-size: large;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: center;
+}
+
+.modal-content {
+  background-color: #fef9f9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  width: 36rem;
+  text-align: center;
+  position: center;
+  margin-top: 150px;
+}
+
+/* Button Styles */
+.button-r8u {
+  display: inline-block;
+  margin: 200px;
+}
+
+.explor-9Nu {
+  background-color: #0000000;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.vector-4Vs {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.explorebutton-9pH {
+  box-sizing: border-box;
+  padding: 3rem 3.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  
+}
+.explorebutton-9pH .optionbutton-TKB {
+  width: 100%;
+  height: 100%;
+  row-gap: 2.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.explorebutton-9pH .optionbutton-TKB .hdp-PTj {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .lcp-SS1 {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .dp-Wwf {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .btd-CZb {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.about-us-U7X {
+    box-sizing: border-box;
+    padding: 10.3rem 1.9rem 5.4rem 2rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .about-us-U7X .auto-group-ploo-2HT {
+    margin: 0rem 10.05rem 5.7rem 8.2rem;
+    width: calc(100% - 18.25rem);
+    height: 12.7rem;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-ploo-2HT .aboutusheader-Gb7 {
+    width: 121.85rem;
+    height: 11.4rem;
+    position: absolute;
+    left: 0;
+    top: 1.3rem;
+    display: flex;
+    align-items: flex-start;
+  }
+  .about-us-U7X .auto-group-ploo-2HT .aboutusheader-Gb7 .about-us-BTB {
+    margin: 1.3rem 13.25rem 0rem 0rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-ploo-2HT .aboutusheader-Gb7 .abouttext-41B {
+    max-width: 83.6rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #948080;
+    font-family: Titillium Web, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-ploo-2HT .line-1-Yww {
+    width: 0.2rem;
+    height: 12.7rem;
+    position: absolute;
+    left: 32.6rem;
+    top: 0;
+    object-fit: contain;
+    vertical-align: top;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 {
+    width: 100%;
+    height: 68.3rem;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH {
+    box-sizing: border-box;
+    padding: 3.1rem 2.8rem 3.072rem 2.8rem;
+    width: 140.1rem;
+    height: 62.7rem;
+    position: absolute;
+    left: 0;
+    top: 5.6rem;
+    overflow: hidden;
+    background-color: #595af1;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    column-gap: 3.9rem;
+    align-items: center;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 {
+    box-sizing: border-box;
+    padding: 10.6rem 3.4rem 3.228rem 3.6rem;
+    width: 30.7rem;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(frame.png);
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX .heart-disease-jws {
+    margin: 0rem 0.1rem 3.5rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2125;
+    color: #595af1;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX .logistics-regression-qED {
+    margin: 0rem 0.1rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX .high-accuracy-j4h {
+    margin-bottom: 2.8rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX .biomarker-identification-1Y1 {
+    margin-bottom: 2.7rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX .predictive-modeling-iBX {
+    margin: 0rem 0.1rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .hdpinfo-oHX .accuracy-82-cXo {
+    margin-right: 0.1rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR {
+    box-sizing: border-box;
+    padding: 3.895rem 0.7rem 0rem 0.6rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR .hdpaccbar-FKs {
+    margin: 0rem 0.1rem 4.595rem 0.1rem;
+    width: calc(100% - 0.2rem);
+    height: 1.11rem;
+    border-radius: 2rem;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR .hdpaccbar-FKs .group-8-m3K {
+    box-sizing: border-box;
+    padding: 0.005rem 0rem 0.005rem 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR .hdpaccbar-FKs .group-8-m3K .rectangle-6-sc9 {
+    width: 17.3rem;
+    height: 1.1rem;
+    background-color: #595af1;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR .hdpbutton-ZUy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR .hdpbutton-ZUy .discover-health-Wf7 {
+    margin-right: 1.65rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .hdpblock-Pr5 .hdptext-5yo .auto-group-zyev-jcR .hdpbutton-ZUy .arrow-1-39F {
+    margin-top: 0.2rem;
+    width: 5.05rem;
+    height: 0.1311rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd {
+    box-sizing: border-box;
+    padding: 10.6rem 3.4rem 3.228rem 3.6rem;
+    width: 30.7rem;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu .lung-cancer-vsF {
+    margin: 0rem 0rem 3.5rem 0.6rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2125;
+    color: #595af1;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu .random-forest-F8q {
+    margin: 0rem 0.1rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu .high-accuracy-ZQR {
+    margin-bottom: 2.8rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu .biomarker-identification-5Nm {
+    margin-bottom: 2.7rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu .predictive-modeling-oZf {
+    margin: 0rem 0.1rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .lcpaboutinfo-zCu .accuracy-85-KY1 {
+    margin-right: 0.1rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm {
+    box-sizing: border-box;
+    padding: 3.895rem 0.7rem 0rem 0.6rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm .lcpaccbar-BKK {
+    margin: 0rem 0.1rem 4.595rem 0.1rem;
+    width: calc(100% - 0.2rem);
+    height: 1.11rem;
+    border-radius: 2rem;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm .lcpaccbar-BKK .group-8-WMb {
+    box-sizing: border-box;
+    padding: 0.005rem 0rem 0.005rem 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm .lcpaccbar-BKK .group-8-WMb .rectangle-6-rAZ {
+    width: 17.3rem;
+    height: 1.1rem;
+    background-color: #595af1;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm .lcpbutton-xDb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm .lcpbutton-xDb .discover-health-WW1 {
+    margin-right: 1.65rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .lcptext-wEd .lcpinfo-SSH .auto-group-t3df-FAm .lcpbutton-xDb .arrow-1-dqX {
+    margin-top: 0.2rem;
+    width: 5.05rem;
+    height: 0.1311rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV {
+    box-sizing: border-box;
+    padding: 10.4rem 1.7rem 3.228rem 3.6rem;
+    width: 30.7rem;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 .diabetes-prediction-a8V {
+    margin: 0rem 0rem 3.7rem 0.7rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2125;
+    color: #595af1;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 .random-forest-VFT {
+    margin: 0rem 1.8rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 .high-accuracy-1Uh {
+    margin: 0rem 1.7rem 2.8rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 .biomarker-identification-Xhw {
+    margin: 0rem 1.7rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 .predictive-modeling-Dqf {
+    margin: 0rem 1.8rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .dpaboutinfo-dj3 .accuracy-96-8hj {
+    margin-right: 1.8rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju {
+    box-sizing: border-box;
+    padding: 3.895rem 0.6rem 0rem 0.6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju .dpaccbar-AuK {
+    margin: 0rem 0rem 4.595rem 0.1rem;
+    width: 22.2rem;
+    height: 1.11rem;
+    border-radius: 2rem;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju .dpaccbar-AuK .group-8-4jo {
+    box-sizing: border-box;
+    padding: 0.005rem 0rem 0.005rem 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju .dpaccbar-AuK .group-8-4jo .rectangle-6-oBb {
+    width: 17.3rem;
+    height: 1.1rem;
+    background-color: #595af1;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju .dpbutton-hnm {
+    margin-right: 1.8rem;
+    width: calc(100% - 1.8rem);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju .dpbutton-hnm .discover-health-qty {
+    margin-right: 1.65rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .dptext-YxV .dpinfo-sUy .auto-group-99ad-3Ju .dpbutton-hnm .arrow-1-98y {
+    margin-top: 0.2rem;
+    width: 5.05rem;
+    height: 0.1311rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh {
+    box-sizing: border-box;
+    padding: 10.4rem 0.2rem 3.228rem 2.7rem;
+    width: 30.7rem;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF .brain-tumor-detection-HPb {
+    margin-bottom: 3.7rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2125;
+    color: #595af1;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF .cnn-PhX {
+    margin: 0rem 4.2rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF .high-accuracy-JpV {
+    margin: 0rem 4.1rem 2.8rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF .biomarker-identification-2Eh {
+    margin: 0rem 4.1rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF .predictive-modeling-XhF {
+    margin: 0rem 4.2rem 2.7rem 0rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .btdaboutinfo-LjF .accuracy-85-e1B {
+    margin-right: 4.2rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK {
+    box-sizing: border-box;
+    padding: 3.895rem 1.5rem 0rem 1.5rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK .btdaccbar-6ds {
+    margin: 0rem 2.4rem 4.595rem 0rem;
+    width: 22.2rem;
+    height: 1.11rem;
+    border-radius: 2rem;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK .btdaccbar-6ds .group-8-XUH {
+    box-sizing: border-box;
+    padding: 0.005rem 0rem 0.005rem 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK .btdaccbar-6ds .group-8-XUH .rectangle-6-FfB {
+    width: 17.3rem;
+    height: 1.1rem;
+    background-color: #595af1;
+    border-radius: 2rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK .btdbutton-xpV {
+    margin-right: 2.4rem;
+    width: calc(100% - 2.4rem);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK .btdbutton-xpV .discover-health-hGH {
+    margin-right: 1.65rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.1725;
+    text-transform: capitalize;
+    color: #595af1;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .about-section-nrH .aboutherosectioncontent-5aV .btdabout-Fxh .btdtext-PZ7 .auto-group-hhk3-AVK .btdbutton-xpV .arrow-1-cu3 {
+    margin-top: 0.2rem;
+    width: 5.05rem;
+    height: 0.1311rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .hdpicon-Xm7 {
+    box-sizing: border-box;
+    padding: 3.4rem 3.902rem 2.5rem 3rem;
+    width: 14.3rem;
+    height: 14.3rem;
+    position: absolute;
+    left: 10.9rem;
+    top: 0;
+    background-color: #595af1;
+    border-radius: 7.15rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .hdpicon-Xm7 .icon-heart-qWu {
+    box-sizing: border-box;
+    padding: 2.5rem 2.6rem 2.5rem 2.4rem;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/vector-juF.png);
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .hdpicon-Xm7 .icon-heart-qWu .vector-LiZ {
+    width: 9.1311rem;
+    height: 9.4644rem;
+    object-fit: contain;
+    vertical-align: top;
+    margin-left: -25px;
+    margin-top: -35px;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .lcpicon-3ss {
+    box-sizing: border-box;
+    padding: 2.5rem 2.6rem 2.5rem 2.4rem;
+    width: 14.3rem;
+    height: 14.3rem;
+    position: absolute;
+    left: 45.5rem;
+    top: 0;
+    background-color: #595af1;
+    border-radius: 7.15rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .lcpicon-3ss .cancer-1-yFj {
+    width: 9.3rem;
+    height: 9.3rem;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .btdicon-UyB {
+    box-sizing: border-box;
+    padding: 3.1rem 2.5rem 2rem 2.6rem;
+    width: 14.3rem;
+    height: 14.3rem;
+    position: absolute;
+    left: 114.7rem;
+    top: 0;
+    background-color: #595af1;
+    border-radius: 7.15rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .btdicon-UyB .brainstorm-1-1-CeH {
+    width: 9.2rem;
+    height: 9.2rem;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .dpicon-vaH {
+    box-sizing: border-box;
+    padding: 2.5rem 2.4rem 1.9rem 2rem;
+    width: 14.3rem;
+    height: 14.3rem;
+    position: absolute;
+    left: 80.1rem;
+    top: 0;
+    background-color: #595af1;
+    border-radius: 7.15rem;
+  }
+  .about-us-U7X .auto-group-epn5-GN9 .dpicon-vaH .blood-test-1-Eqs {
+    width: 9.9rem;
+    height: 9.9rem;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  .experts-yjK {
+    box-sizing: border-box;
+    padding: 8.8rem 12.6rem 22.7rem 10.2rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .experts-yjK .expertsheader-Hzu {
+    margin: 0rem 4.5rem 7.8rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsheader-Hzu .experts-RrD {
+    margin: 1.4rem 6.1rem 0rem 0rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsheader-Hzu .line-1-Yvq {
+    margin-right: 5.1rem;
+    width: 0.2rem;
+    height: 12.7rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsheader-Hzu .expertstext-VbB {
+    margin-top: 1.3rem;
+    max-width: 83.3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #948080;
+    font-family: Titillium Web, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ {
+    margin-bottom: 17.7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD {
+    margin: 0.7rem 6.8rem 0rem 0rem;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expertpfp1-FTs {
+    margin-right: 2.3rem;
+    box-sizing: border-box;
+    padding: 1.2rem 1.2rem 1.29rem 1.3rem;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/expert1-profile.png');
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expertpfp1-FTs .expert-1-1-am3 {
+    width: 13.8rem;
+    height: 13.5105rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 26.4rem;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expert1bio-sVF {
+    margin: 0.7rem 0rem 0.6rem 0rem;
+    box-sizing: border-box;
+    padding: 0.65rem 3.2rem;
+    width: 38.6rem;
+    height: calc(100% - 1.3rem);
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expert1bio-sVF .dr-george-a-beller-cardiologist-serenity-general-hospital-georgebellermdgmailcom-BF3 {
+    max-width: 27.2rem;
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M {
+    margin-bottom: 0.7rem;
+    height: 16rem;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expertpfp2-NaR {
+    margin-right: 2.3rem;
+    box-sizing: border-box;
+    padding: 1rem 1.2rem 1rem 1.3rem;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/expert2-profile.png');
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expertpfp2-NaR .expert-2-1-hsb {
+    width: 13.8rem;
+    height: 14rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 14.95rem;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expert2bio-Rob {
+    width: 38.6rem;
+    height: 14.6rem;
+    position: relative;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expert2bio-Rob .expert2-biorectangle-aRb {
+    width: 38.6rem;
+    height: 14.308rem;
+    position: absolute;
+    left: 0;
+    top: 0.292rem;
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expert2bio-Rob .dr-victoria-carter-pulmonologists-horizon-general-hospital-victoriacartermdgmailcom-Hqo {
+    width: 27.9rem;
+    height: 13.4rem;
+    position: absolute;
+    left: 2.7rem;
+    top: 0.454rem;
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 {
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah {
+    margin-right: 6.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expertpfp3-S6R {
+    margin-right: 2.3rem;
+    box-sizing: border-box;
+    padding: 1.1rem 1.2rem 1.1rem 1.3rem;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/expert3-profile.png');
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expertpfp3-S6R .expert-3-1-xqT {
+    width: 13.8rem;
+    height: 13.8rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 11.75rem;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expert3-bio-VKb {
+    margin: 0.7rem 0rem 0.6rem 0rem;
+    box-sizing: border-box;
+    padding: 0.65rem 3.2rem;
+    width: 38.6rem;
+    height: calc(100% - 1.3rem);
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expert3-bio-VKb .dr-mark-e-shaffrey-endocrinologists-harmony-wellness-hospital-markshaffreymdgmailcom-CE1 {
+    max-width: 28.1rem;
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expertpfp4-RcZ {
+    margin-right: 2.3rem;
+    box-sizing: border-box;
+    padding: 1rem 1.2rem 1.3rem 1.3rem;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/expert4-profile.png');
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expertpfp4-RcZ .expert-4-1-YBP {
+    width: 13.8rem;
+    height: 13.7rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 7.15rem;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expert4-bio-rSy {
+    margin-bottom: 0.2rem;
+    box-sizing: border-box;
+    padding: 0.65rem 3.2rem;
+    width: 38.6rem;
+    height: 14.7rem;
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expert4-bio-rSy .dr-olivia-bennett-neurologists-pinecrest-memorial-hospital-oliviabennettmdgmailcom-ATf {
+    max-width: 27.8rem;
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .contactus-iww {
+    box-sizing: border-box;
+    padding: 10.2rem 10.6rem 17.2rem 10.2rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .contactus-iww .contactusaddress-z8m {
+    margin-bottom: 9.1rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .contactus-iww .contactusaddress-z8m .contact-us-KB3 {
+    margin: 2.7rem 5.6rem 0rem 0rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .contactus-iww .contactusaddress-z8m .line-1-cA9 {
+    margin-right: 4.9rem;
+    width: 0rem;
+    height: 0.8rem;
+    background-color: #595af1;
+    flex-shrink: 0;
+  }
+  .contactus-iww .contactusaddress-z8m .abouttext-8PP {
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2102272797;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+    flex-shrink: 0;
+  }
+  .contactus-iww .contactusaddress-z8m .abouttext-8PP .abouttext-8PP-sub-0 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #848181;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .contactus-iww .contactusaddress-z8m .abouttext-8PP .abouttext-8PP-sub-1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .contactus-iww .contactusaddress-z8m .abouttext-8PP .abouttext-8PP-sub-2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.52;
+    color: #948080;
+    font-family: Titillium Web, 'Source Sans Pro';
+  }
+  .contactus-iww .auto-group-3bhf-oQy {
+    margin-right: 7.8rem;
+    width: calc(100% - 7.8rem);
+    height: 57.3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusform-vkV {
+    margin-right: 8rem;
+    width: 58.5rem;
+    height: 100%;
+    row-gap: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusform-vkV .namearea-qsT {
+    width: 100%;
+    height: 6.3rem;
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusform-vkV .mailarea-mm7 {
+    width: 100%;
+    height: 6.3rem;
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusform-vkV .messagearea-Vx1 {
+    width: 100%;
+    height: 30.1rem;
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusform-vkV .submitbutton-qW5 {
+    width: 19.8rem;
+    height: 6.2rem;
+    background-color: #d9d9d9;
+    border-radius: 0.6rem;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V {
+    width: 48.9rem;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .contact-details-WMK {
+    margin-bottom: 4.5rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .contact-details-WMK .contact-details-WMK-sub-0 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .contact-details-WMK .contact-details-WMK-sub-1 {
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-f4bw-hgh {
+    margin: 0rem 0rem 3.928rem 0.3rem;
+    width: calc(100% - 0.3rem);
+    height: 9.4723rem;
+    display: flex;
+    align-items: center;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-f4bw-hgh .emailid-RMo {
+    margin-right: 4.1rem;
+    box-sizing: border-box;
+    padding: 1.607rem 2.461rem 2.368rem 2.207rem;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/ellipse-5.png');
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-f4bw-hgh .emailid-RMo .icon-envelope-open-text-Ljf {
+    width: 10.1rem;
+    height: 9.47rem;
+    object-fit: contain;
+    vertical-align: top;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-f4bw-hgh .mockingbirdgmailcom-Eq3 {
+    margin-bottom: 0.9723rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-f4bw-hgh .mockingbirdgmailcom-Eq3 .mockingbirdgmailcom-Eq3-sub-0 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+    margin-left: -20px;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-f4bw-hgh .mockingbirdgmailcom-Eq3 .mockingbirdgmailcom-Eq3-sub-1 {
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-3nh3-SgD {
+    margin: 0rem 14.6rem 3.928rem 0.3rem;
+    width: calc(100% - 14.9rem);
+    display: flex;
+    align-items: center;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-3nh3-SgD .telephonenodetails-Yz9 {
+    margin-right: 4.1rem;
+    width: 10.1rem;
+    height: 9.4723rem;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-3nh3-SgD .item-02200321000-sWd {
+    margin-bottom: 1.3723rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-i7q7-BGR {
+    margin: 0rem 10.3rem 0rem 0.3rem;
+    width: calc(100% - 10.6rem);
+    display: flex;
+    align-items: center;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-i7q7-BGR .mobilenodetails-JM3 {
+    margin-right: 4.1rem;
+    width: 10.1rem;
+    height: 9.4723rem;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .contactus-iww .auto-group-3bhf-oQy .contactusdetails-y6V .auto-group-i7q7-BGR .item-91-9832454520-csX {
+    margin-top: 0.0277rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.52;
+    color: #000000;
+    font-family: Titillium Web, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  

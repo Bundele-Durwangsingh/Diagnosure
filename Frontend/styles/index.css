@@ -31,7 +31,6 @@ body {
   height: 8.7rem;
   display: flex;
   align-items: flex-end;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
 }
 .index-BSm .navbar-JGV .logotitle-DPT {
@@ -172,7 +171,7 @@ body {
 }
 .index-BSm .button-r8u {
   margin: 0rem 51.8rem 0rem 47.5rem;
-  box-sizing: border-box;
+
   padding: 1.35rem 2.4rem 2.25rem 3.35rem;
   width: calc(100% - 99.3rem);
   display: flex;
@@ -200,5 +199,140 @@ body {
   height: 3.5rem;
   object-fit: contain;
   vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group-3bhf-oQy .contact-right,
+.auto-group-3bhf-oQy .contact-right form,
+.auto-group-3bhf-oQy .contact-right input[type="text"],
+.auto-group-3bhf-oQy .contact-right input[type="email"],
+.auto-group-3bhf-oQy .contact-right textarea,
+.auto-group-3bhf-oQy .contact-right button {
+    font-size: large;
+}
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: center;
+}
+
+.modal-content {
+  background-color: #fef9f9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  width: 36rem;
+  text-align: center;
+  position: center;
+  margin-top: 150px;
+}
+
+/* Button Styles */
+.button-r8u {
+  display: inline-block;
+  margin: 200px;
+}
+
+.explor-9Nu {
+  background-color: #0000000;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.vector-4Vs {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.explorebutton-9pH {
+  box-sizing: border-box;
+  padding: 3rem 3.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  
+}
+.explorebutton-9pH .optionbutton-TKB {
+  width: 100%;
+  height: 100%;
+  row-gap: 2.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.explorebutton-9pH .optionbutton-TKB .hdp-PTj {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .lcp-SS1 {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .dp-Wwf {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
+  flex-shrink: 0;
+}
+.explorebutton-9pH .optionbutton-TKB .btd-CZb {
+  width: 100%;
+  height: 7.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  background-color: #595af1;
+  border-radius: 1.4rem;
   flex-shrink: 0;
 }

@@ -1,21 +1,376 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/index.css') }}">
-    <title>Integrated Healthcare Prognosis</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Index</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Do+Hyeon%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700%2C900" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web%3A600%2C700" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A500%2C700" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A700%2C800%2C900" />
+
+  <link href="{{ url_for('static', filename='styles/index.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='styles/about-us.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='styles/experts.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='styles/contactus.css') }}" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to Integrated Healthcare Prognosis</h1>
+  <div class="index-BSm">
+    <div class="navbar-JGV">
+      <div class="logotitle-DPT">
+        <div class="weblogo-N1T">
+          <img class="programmer-1-tEh" src="./assets/programmer-1.png" />
+        </div>
+        <div class="title-CFP">
+          <p class="diagno-Kau">Diagno</p>
+          <p class="sure-dLh">Sure</p>
+        </div>
+      </div>
+      <div class="menus-wsB">
+        <div class="about-6EH"><a href="#about-us-U7X" style="text-decoration: none; color: black;">About</a></div>
+        <div class="explore-ciR"><a href="" style="text-decoration: none; color: black;">Explore</div></a>
+        <div class="experts-MR7"><a href="#experts-yjK" style="text-decoration: none; color: black;">Experts</div></a>
+        <div class="contact-Tyw"><a href="#contactus-iww" style="text-decoration: none; color: black;">Contact</div></a>
+      </div>
+    </div>
+    <div class="indexdesign-ky3">
+      <div
+        class="transforming-healthcare-with-cutting-edge-technology-our-website-pioneers-a-revolutionary-ml-powered-integrated-prognosis-system-5VX">
+        Transforming healthcare with cutting-edge technology, our website pioneers a revolutionary ML-powered Integrated
+        Prognosis System.</div>
+      <img class="clip-path-group-vm3" src="./assets/clip-path-group.png" />
+    </div>
+    <div class="button-r8u">
+      <div class="explor-9Nu" onclick="openModal()">Explore</div>
+      <img class="vector-4Vs" src="./assets/vector-9Xb.png" />
+    </div>
 
-    <!-- Create buttons to navigate to different disease pages -->
-    <a href="heart.html"><button class="disease-button">Heart Disease</button></a>
-    <a href="lungs.html"><button class="disease-button">Lung Cancer</button></a>
-    <a href="diabetes.html"><button class="disease-button">Diabetes</button></a>
-    <a href="braintumor.html"><button class="disease-button">Brain Tumor</button></a>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="explorebutton-9pH">
+          <div class="optionbutton-TKB">
+            <button onclick="buttonClicked('Heart Disease')" class="hdp-PTj">Heart Disease</button>
+            <button onclick="buttonClicked('Diabetes')" class="dp-Wwf">Diabetes</button>
+            <button onclick="buttonClicked('Lung Cancer')" class="lcp-SS1">Lung Cancer</button>
+            <button onclick="buttonClicked('Brain Tumor')" class="btd-CZb">Brain Tumor</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-us-U7X" id="about-us-U7X">
+    <div class="auto-group-ploo-2HT">
+      <div class="aboutusheader-Gb7">
+        <p class="about-us-BTB">ABOUT US</p>
+        <p class="abouttext-41B">Our project leverages machine learning to predict Heart disease , lung cancer,diabetes
+          and brain tumor with high accuracy. Using advanced algorithms, aim to provide precise and early detection,
+          proactive healthcare decisions.</p>
+      </div>
+      <img class="line-1-Yww" src="./assets/line-1-9Xs.png" />
+    </div>
+    <div class="auto-group-epn5-GN9">
+      <div class="about-section-nrH">
+        <div class="aboutherosectioncontent-5aV">
+          <div class="hdpblock-Pr5">
+            <div class="hdptext-5yo">
+              <div class="hdpinfo-oHX">
+                <p class="heart-disease-jws">Heart Disease</p>
+                <p class="logistics-regression-qED">Logistics Regression</p>
+                <p class="high-accuracy-j4h">High Accuracy</p>
+                <p class="biomarker-identification-1Y1">Biomarker Identification</p>
+                <p class="predictive-modeling-iBX">Predictive Modeling</p>
+                <p class="accuracy-82-cXo">Accuracy : 82%</p>
+              </div>
+              <div class="auto-group-zyev-jcR">
+                <div class="hdpaccbar-FKs">
+                  <div class="group-8-m3K">
+                    <div class="rectangle-6-sc9">
+                    </div>
+                  </div>
+                </div>
+                <div class="hdpbutton-ZUy">
+                  <p class="discover-health-Wf7">Discover Health</p>
+                  <img class="arrow-1-39F" src="./assets/arrow-1-h6D.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lcptext-wEd">
+            <div class="lcpinfo-SSH">
+              <div class="lcpaboutinfo-zCu">
+                <p class="lung-cancer-vsF">LUNG CANCER</p>
+                <p class="random-forest-F8q">Random forest</p>
+                <p class="high-accuracy-ZQR">High Accuracy</p>
+                <p class="biomarker-identification-5Nm">Biomarker Identification</p>
+                <p class="predictive-modeling-oZf">Predictive Modeling</p>
+                <p class="accuracy-85-KY1">Accuracy : 85%</p>
+              </div>
+              <div class="auto-group-t3df-FAm">
+                <div class="lcpaccbar-BKK">
+                  <div class="group-8-WMb">
+                    <div class="rectangle-6-rAZ">
+                    </div>
+                  </div>
+                </div>
+                <div class="lcpbutton-xDb">
+                  <p class="discover-health-WW1">Discover Health</p>
+                  <img class="arrow-1-dqX" src="./assets/arrow-1-MHF.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dptext-YxV">
+            <div class="dpinfo-sUy">
+              <div class="dpaboutinfo-dj3">
+                <p class="diabetes-prediction-a8V">Diabetes prediction</p>
+                <p class="random-forest-VFT">Random forest</p>
+                <p class="high-accuracy-1Uh">High Accuracy</p>
+                <p class="biomarker-identification-Xhw">Biomarker Identification</p>
+                <p class="predictive-modeling-Dqf">Predictive Modeling</p>
+                <p class="accuracy-96-8hj">Accuracy : 96%</p>
+              </div>
+              <div class="auto-group-99ad-3Ju">
+                <div class="dpaccbar-AuK">
+                  <div class="group-8-4jo">
+                    <div class="rectangle-6-oBb">
+                    </div>
+                  </div>
+                </div>
+                <div class="dpbutton-hnm">
+                  <p class="discover-health-qty">Discover Health</p>
+                  <img class="arrow-1-98y" src="./assets/arrow-1-Mnu.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btdabout-Fxh">
+            <div class="btdtext-PZ7">
+              <div class="btdaboutinfo-LjF">
+                <p class="brain-tumor-detection-HPb">Brain tumor detection </p>
+                <p class="cnn-PhX">CNN</p>
+                <p class="high-accuracy-JpV">High Accuracy</p>
+                <p class="biomarker-identification-2Eh">Biomarker Identification</p>
+                <p class="predictive-modeling-XhF">Predictive Modeling</p>
+                <p class="accuracy-85-e1B">Accuracy : 85%</p>
+              </div>
+              <div class="auto-group-hhk3-AVK">
+                <div class="btdaccbar-6ds">
+                  <div class="group-8-XUH">
+                    <div class="rectangle-6-FfB">
+                    </div>
+                  </div>
+                </div>
+                <div class="btdbutton-xpV">
+                  <p class="discover-health-hGH">Discover Health</p>
+                  <img class="arrow-1-cu3" src="./assets/arrow-1.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hdpicon-Xm7">
+        <div class="icon-heart-qWu">
+          <img class="vector-LiZ" src="./assets/vector.png" />
+        </div>
+      </div>
+      <div class="lcpicon-3ss">
+        <img class="cancer-1-yFj" src="./assets/cancer-1-rd3.png" />
+      </div>
+      <div class="btdicon-UyB">
+        <img class="brainstorm-1-1-CeH" src="./assets/brainstorm-1-1-pku.png" />
+      </div>
+      <div class="dpicon-vaH">
+        <img class="blood-test-1-Eqs" src="./assets/blood-test-1.png" />
+      </div>
+    </div>
+  </div>
+  <div class="experts-yjK" id="experts-yjK">
+    <div class="expertsheader-Hzu">
+      <p class="experts-RrD">EXPERTS</p>
+      <img class="line-1-Yvq" src="./assets/line-1.png" />
+      <p class="expertstext-VbB">Hello..! Our team is here to assist you promptly and professionally. Feel free to reach
+        out with any inquiries or concerns.</p>
+    </div>
+    <div class="expertsprofiles-cA1">
+      <div class="auto-group-bxfs-xzZ">
+        <div class="expert1profile-KaD">
+          <div class="expertpfp1-FTs">
+            <img class="expert-1-1-am3" src="./assets/expert-1-1.png" />
+          </div>
+          <div class="expert1bio-sVF">
+            <div class="dr-george-a-beller-cardiologist-serenity-general-hospital-georgebellermdgmailcom-BF3">
+              Dr. George A. Beller
+              <br />
+              Cardiologist
+              <br />
+              Serenity General Hospital
+              <br />
+              georgebeller.md@gmail.com
+            </div>
+          </div>
+        </div>
+        <div class="expert2profile-32M">
+          <div class="expertpfp2-NaR">
+            <img class="expert-2-1-hsb" src="./assets/expert-2-1.png" />
+          </div>
+          <div class="expert2bio-Rob">
+            <div class="expert2-biorectangle-aRb">
+            </div>
+            <div class="dr-victoria-carter-pulmonologists-horizon-general-hospital-victoriacartermdgmailcom-Hqo">
+              Dr. Victoria Carter
+              <br />
+              Pulmonologists
+              <br />
+              Horizon General Hospital
+              <br />
+              victoriacarter.md@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="auto-group-nz6m-Lp5">
+        <div class="expert3profile-tah">
+          <div class="expertpfp3-S6R">
+            <img class="expert-3-1-xqT" src="./assets/expert-3-1.png" />
+          </div>
+          <div class="expert3-bio-VKb">
+            <div class="dr-mark-e-shaffrey-endocrinologists-harmony-wellness-hospital-markshaffreymdgmailcom-CE1">
+              Dr. Mark E. Shaffrey
+              <br />
+              Endocrinologists
+              <br />
+              Harmony Wellness Hospital
+              <br />
+              markshaffrey.md@gmail.com
+            </div>
+          </div>
+        </div>
+        <div class="expert4profile-fdP">
+          <div class="expertpfp4-RcZ">
+            <img class="expert-4-1-YBP" src="./assets/expert-4-1.png" />
+          </div>
+          <div class="expert4-bio-rSy">
+            <div class="dr-olivia-bennett-neurologists-pinecrest-memorial-hospital-oliviabennettmdgmailcom-ATf">
+              Dr. Olivia Bennett
+              <br />
+              Neurologists
+              <br />
+              Pinecrest Memorial Hospital
+              <br />
+              oliviabennett.md@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contactus-iww" id="contactus-iww">
+    <div class="contactusaddress-z8m">
+      <p class="contact-us-KB3">CONTACT US </p>
+      <div class="line-1-cA9">
+      </div>
+      <p class="abouttext-8PP">
+        <span class="abouttext-8PP-sub-0">Address:</span>
+        <span class="abouttext-8PP-sub-1"> </span>
+        <span class="abouttext-8PP-sub-2">Mockingbird, Fictionville Road, United Imaginary States- 400037 </span>
+      </p>
+    </div>
+    <div class="auto-group-3bhf-oQy">
+      <div class="contact-right">
+        <form class="contactusform-vkV" name="submit-to-google-sheet">
+          <div class="namearea-qsT">
+            <input class="namearea-qsT" type="text" name="Name" placeholder="Your Name" required>
+          </div>
+          <div class="mailarea-mm7">
+            <input class="mailarea-mm7" type="email" name="Email" placeholder="Your Email" required>
+          </div>
+          <div class="messagearea-Vx1">
+            <textarea class="messagearea-Vx1" name="Message" rows="6" placeholder="Your messsage"></textarea>
+          </div>
+          <div class="submitbutton-qW5">
+            <button type="submit" class="submitbutton-qW5">Submit</button>
+          </div>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+
+
+      <div class="contactusdetails-y6V">
+        <p class="contact-details-WMK">
+          <span class="contact-details-WMK-sub-0">Contact Details</span>
+          <span class="contact-details-WMK-sub-1"> </span>
+        </p>
+        <div class="auto-group-f4bw-hgh">
+          <div class="emailid-RMo">
+            <img class="icon-envelope-open-text-Ljf" src="./assets/icon-envelope-open-text.png" />
+          </div>
+          <p class="mockingbirdgmailcom-Eq3">
+            <span class="mockingbirdgmailcom-Eq3-sub-0">mockingbird</span>
+            <span class="mockingbirdgmailcom-Eq3-sub-1">@gmail.com</span>
+          </p>
+        </div>
+        <div class="auto-group-3nh3-SgD">
+          <img class="telephonenodetails-Yz9" src="./assets/telephonenodetails.png" />
+          <p class="item-02200321000-sWd">02200321000</p>
+        </div>
+        <div class="auto-group-i7q7-BGR">
+          <img class="mobilenodetails-JM3" src="./assets/mobilenodetails.png" />
+          <p class="item-91-9832454520-csX">+91 9832454520</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw2m7BuaGUo2D45z-GIdSASz27zbzhdw2B14NSkIX6Ws5MUKoxwm9tB94tgeRumJT3A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Thank you your details has be recorded"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementsByClassName("explor-9Nu")[0];
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    // Function to open the modal
+    function openModal() {
+      modal.style.display = "block";
+    }
+
+    // Function to handle button click
+    function buttonClicked(buttonName) {
+      alert("You clicked on: " + buttonName);
+      // Here, you can implement the functionality you want when a button is clicked
+      // For example, you can navigate to a different page or perform an action based on the button clicked
+    }
+
+
+  </script>
 </body>
-
-</html>

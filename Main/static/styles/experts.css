@@ -1,0 +1,268 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.experts-yjK {
+  box-sizing: border-box;
+  padding: 8.8rem 12.6rem 22.7rem 10.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.experts-yjK .expertsheader-Hzu {
+  margin: 0rem 4.5rem 7.8rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsheader-Hzu .experts-RrD {
+  margin: 1.4rem 6.1rem 0rem 0rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsheader-Hzu .line-1-Yvq {
+  margin-right: 5.1rem;
+  width: 0.2rem;
+  height: 12.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsheader-Hzu .expertstext-VbB {
+  margin-top: 1.3rem;
+  max-width: 83.3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.52;
+  color: #948080;
+  font-family: Titillium Web, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ {
+  margin-bottom: 17.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD {
+  margin: 0.7rem 6.8rem 0rem 0rem;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expertpfp1-FTs {
+  margin-right: 2.3rem;
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 1.29rem 1.3rem;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/expert1-profile.png');
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expertpfp1-FTs .expert-1-1-am3 {
+  width: 13.8rem;
+  height: 13.5105rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 26.4rem;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expert1bio-sVF {
+  margin: 0.7rem 0rem 0.6rem 0rem;
+  box-sizing: border-box;
+  padding: 0.65rem 3.2rem;
+  width: 38.6rem;
+  height: calc(100% - 1.3rem);
+  background-color: #d9d9d9;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert1profile-KaD .expert1bio-sVF .dr-george-a-beller-cardiologist-serenity-general-hospital-georgebellermdgmailcom-BF3 {
+  max-width: 27.2rem;
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M {
+  margin-bottom: 0.7rem;
+  height: 16rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expertpfp2-NaR {
+  margin-right: 2.3rem;
+  box-sizing: border-box;
+  padding: 1rem 1.2rem 1rem 1.3rem;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/expert2-profile.png');
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expertpfp2-NaR .expert-2-1-hsb {
+  width: 13.8rem;
+  height: 14rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 14.95rem;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expert2bio-Rob {
+  width: 38.6rem;
+  height: 14.6rem;
+  position: relative;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expert2bio-Rob .expert2-biorectangle-aRb {
+  width: 38.6rem;
+  height: 14.308rem;
+  position: absolute;
+  left: 0;
+  top: 0.292rem;
+  background-color: #d9d9d9;
+  border-radius: 0.6rem;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-bxfs-xzZ .expert2profile-32M .expert2bio-Rob .dr-victoria-carter-pulmonologists-horizon-general-hospital-victoriacartermdgmailcom-Hqo {
+  width: 27.9rem;
+  height: 13.4rem;
+  position: absolute;
+  left: 2.7rem;
+  top: 0.454rem;
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah {
+  margin-right: 6.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expertpfp3-S6R {
+  margin-right: 2.3rem;
+  box-sizing: border-box;
+  padding: 1.1rem 1.2rem 1.1rem 1.3rem;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/expert3-profile.png');
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expertpfp3-S6R .expert-3-1-xqT {
+  width: 13.8rem;
+  height: 13.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 11.75rem;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expert3-bio-VKb {
+  margin: 0.7rem 0rem 0.6rem 0rem;
+  box-sizing: border-box;
+  padding: 0.65rem 3.2rem;
+  width: 38.6rem;
+  height: calc(100% - 1.3rem);
+  background-color: #d9d9d9;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert3profile-tah .expert3-bio-VKb .dr-mark-e-shaffrey-endocrinologists-harmony-wellness-hospital-markshaffreymdgmailcom-CE1 {
+  max-width: 28.1rem;
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expertpfp4-RcZ {
+  margin-right: 2.3rem;
+  box-sizing: border-box;
+  padding: 1rem 1.2rem 1.3rem 1.3rem;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/expert4-profile.png');
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expertpfp4-RcZ .expert-4-1-YBP {
+  width: 13.8rem;
+  height: 13.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 7.15rem;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expert4-bio-rSy {
+  margin-bottom: 0.2rem;
+  box-sizing: border-box;
+  padding: 0.65rem 3.2rem;
+  width: 38.6rem;
+  height: 14.7rem;
+  background-color: #d9d9d9;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.experts-yjK .expertsprofiles-cA1 .auto-group-nz6m-Lp5 .expert4profile-fdP .expert4-bio-rSy .dr-olivia-bennett-neurologists-pinecrest-memorial-hospital-oliviabennettmdgmailcom-ATf {
+  max-width: 27.8rem;
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.52;
+  color: #000000;
+  font-family: Titillium Web, 'Source Sans Pro';
+}

@@ -20,7 +20,7 @@ model = load_model("braintumor10Epochs.h5")
 # code segment for index page
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("App.html")
 
 
 # code segment for heart disease predection
@@ -144,9 +144,6 @@ def dp_predict():
         return render_template("diabetes.html", label=1)
     else:
         return render_template("diabetes.html", label=-1)
-
-
-
 
 
 # code segment for brain tumour predection
