@@ -1,61 +1,247 @@
-*{
-    margin: 0;
-    padding: 0;
+
+html {
+	font-size:62.5%;
 }
-body{
-    background: url(diabck_img1.jpg);
-    background-size: cover;
-    background-position: center;
+* {
+	margin: 0;
+	padding: 0;
 }
-div.main{
-    width: 400px;
-    margin: 100px auto 100px auto;
+ul, li {
+	list-style: none;
 }
-h2{
-    text-align: center;
-    padding: 20px;
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
+input {
+	border: none;
 }
-div.register{
-    background-color: rgba(0,0,0,0.5);
-    width: 100%;
-    font-size: 18px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
-    color: #fff;
+body {
+  width: 144rem;
 }
+.lung-cancer-EZD {
+  box-sizing: border-box;
+  padding: 3.4rem 41.936rem 3.4rem 12rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+.lung-cancer-EZD .logotitle-N9d {
+  margin-right: 13.5rem;
+  height: 8.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .logotitle-N9d .weblogo-Vk3 {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding: 1.6rem 1.8rem 2.1rem 1.9rem;
+  height: 100%;
+  background-color: #595af1;
+  border-radius: 4.35rem;
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .logotitle-N9d .weblogo-Vk3 .programmer-1-dbM {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.lung-cancer-EZD .logotitle-N9d .title-YyD {
+  margin: 1.7rem 0rem 0.8rem 0rem;
+  height: calc(100% - 2.5rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .logotitle-N9d .title-YyD .diagno-gZd {
+  margin-bottom: 0.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .logotitle-N9d .title-YyD .sure-Cns {
+  margin-top: 0.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #595af1;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .lungs-cancer-prediction-wEf {
+  margin: 9.1rem 1.5rem 0rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2125;
+  color: #595af1;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .lcpicon-r6j {
+  margin-bottom: 74.3rem;
+  box-sizing: border-box;
+  padding: 0.787rem 0.866rem 0.787rem 0.8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-2-HjD.png');
+  flex-shrink: 0;
+}
+.lung-cancer-EZD .lcpicon-r6j .cancer-1-mzP {
+  width: 3.0982rem;
+  height: 2.9266rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.form-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -30px;
+}
+
 form {
-    margin-left: 90px;
-    margin-right: 70px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 95px;
+  background-color: #efefef;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #999999;
+  font-family: Inter, 'Source Sans Pro';
+  font-size: medium;
 }
+
 label{
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+  font-family: Inter, 'Source Sans Pro';
 }
-input[type="submit"]{
-    width: 200px;
-    padding: 7px;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 600;
-    border: none;
-    border-radius: 3px;
-    background-color: #006699;
-    color: #ffffff;
-    cursor: pointer;
+
+input {
+  padding: 5px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: Inter, 'Source Sans Pro';
 }
-input[type="submit"]:hover 
-        {
-            background-color: #004466;
-        }
-label,span,h2{
-    text-shadow: 1px, 1px, 5px, rgba(0, 0, 0, 0.3) ;
+
+input[type="submit"] {
+  background-color:  #595af1;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Inter, 'Source Sans Pro';
+  margin-left: 55px;
+}
+
+input[type="submit"]:hover {
+  background-color: #004466;
+  font-family: Inter, 'Source Sans Pro';
+}
+
+.modal {
+  display: none; /* Initially hidden */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Transparent black background */
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 30px 20px;
+  border: 1px solid #888;
+  max-width: 400px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  border-radius: 12px;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  color: red;
+}
+
+
+.modal-buttons {
+  /* Inherit styles from your sample CSS (adjust as needed) */
+  background-color: #595af1;
+  color: #ffffff;
+  border: none;
+  border-radius: 1.4rem;
+  padding: 1rem 2rem;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-button:hover {
+  /* Add hover effect (adjust as needed) */
+  background-color: #474bcc;
+}
+
+.close-button {
+  /* Styles for the close button (optional) */
+  background-color: #f00;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button{
+  background-color: #595af1;
+  color: #ffffff;
+  border: none;
+  border-radius: 1.4rem;
+  padding: 1rem 2rem;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }

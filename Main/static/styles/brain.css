@@ -102,6 +102,7 @@ body {
 }
 .form-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -242,4 +243,7 @@ button{
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+}
+.button-container{
+  margin-top: 15px;
 }

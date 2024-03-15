@@ -8,6 +8,7 @@ from PIL import Image
 import cv2
 from keras.models import load_model
 from werkzeug.utils import secure_filename
+from flask import redirect
 
 app = Flask(__name__)
 
