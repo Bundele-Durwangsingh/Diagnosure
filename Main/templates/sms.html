@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Do+Hyeon%3A400" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C900" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A900" />
+    <<link rel="stylesheet" href="{{ url_for('static',filename='styles/sms.css') }}" />
+</head>
+
+<body>
+    <div class="sms">
+        <div class="logo-title">
+            <div class="web-logo">
+                <div class="logo">
+                    <div class="programmer-1">
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <div class="diagno">
+                    Diagno
+                </div>
+                <div class="sure">
+                    Sure
+                </div>
+            </div>
+        </div>
+        <form id="diseaseForm" action="/Send_Sms" method="post">
+            <div class="select-disease">
+                Select Disease :
+            </div>
+            <p class="heart-disease">
+                <input type="radio" id="heartDisease" name="disease"
+                    value="Follow this link for Heart remedy https://heartremedy.netlify.app/" required>
+                <label for="heartDisease">Heart Disease</label>
+            </p>
+            <p class="diabetes">
+                <input type="radio" id="diabetes" name="disease"
+                    value="Follow this link for diabetes remedy https://diabetesremedy.netlify.app/" required>
+                <label for="diabetes">Diabetes</label>
+            </p>
+            <p class="lung-cancer">
+                <input type="radio" id="lungCancer" name="disease"
+                    value="Follow this link for lungs remedy https://lungsremedy.netlify.app/ " required>
+                <label for="lungCancer">Lung Cancer</label>
+            </p>
+            <p class="brain-tumor">
+                <input type="radio" id="brainTumor" name="disease"
+                    value="Follow this link for Brain Tumour remedy https://braintumorremedy.netlify.app/ " required>
+                <label for="brainTumor">Brain Tumor</label>
+            </p>
+            <div class="explore-button">
+                <button type="submit" class="explor">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

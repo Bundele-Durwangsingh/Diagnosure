@@ -8,7 +8,7 @@ from PIL import Image
 import cv2
 from keras.models import load_model
 from werkzeug.utils import secure_filename
-from flask import redirect
+from twilio.rest import Client
 
 app = Flask(__name__)
 
@@ -21,7 +21,7 @@ model = load_model("braintumor10Epochs.h5")
 # code segment for index page
 @app.route("/")
 def home():
-    return render_template("App.html")
+    return render_template("Diagnosure.html")
 
 
 # code segment for heart disease predection
@@ -183,6 +183,21 @@ def upload():
         result = get_className(value)
         return result
     return None
+
+@app.route("/sms.html")
+def sms():
+    return render_template("sms.html")
+
+
+@app.route("/Send_Sms", methods=["POST"])
+def Send_Sms():
+    msg = request.form.get("disease")
+    account_sid = "ACC_SID"
+    auth_token = "ACC_TOKEN"
+    client = Client(account_sid, auth_token)
+
+    message = client.messages.create(from_="+14123019052", body=msg, to="MOB_NUMBER")
+    return render_template("index.html")
 
 
 if __name__ == "__main__":

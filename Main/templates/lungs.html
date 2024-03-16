@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="{{ url_for('static', filename='image/logo.png') }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>lung-cancer</title>
@@ -21,12 +21,12 @@
                 <span class="close">&times;</span>
 
                 {% if label == 1 %}
-                <h1> Your are more likely to have a Heart disease</h1>
+                <h1> Your are more likely to have a lung cancer</h1>
                 <p>
                 <h3>Would you like to send precaution via sms</h3>
                 </p>
                 {% else %}
-                <h1>You are less likely to have heart disease at this time.</h1>
+                <h1>You are less likely to have lung cancer at this time.</h1>
                 <p>
                 <h3>Would you like to send precaution via sms</h3>
                 </p>
@@ -34,7 +34,9 @@
 
                 <div class="modal-buttons">
 
-                    <button>Send SMS</button>
+                    <a href="sms.html">
+                        <button>Send SMS</button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="{{ url_for('static', filename='image/logo.png') }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>Brain Tumour detection</title>
@@ -18,7 +18,7 @@
     <div class="dieates-rns">
         <div class="logotitle-bEf">
             <div class="weblogo-Li3">
-                <img class="programmer-1-fkK" src="./assets/programmer-1-wwu.png" />
+                <img class="programmer-1-fkK" src="{{ url_for('static', filename='image/programmer.png') }}" />
             </div>
             <div class="title-1JP">
                 <p class="diagno-9Qb">Diagno</p>
@@ -50,7 +50,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-            // Init
             $('.loader').hide();
             $('#result').hide();
             $('#button-container').hide();
@@ -73,15 +72,15 @@
                 readURL(this);
             });
 
-            // Predict
+
             $('#btn-predict').click(function () {
                 var form_data = new FormData($('#upload-file')[0]);
 
-                // Show loading animation
+
                 $(this).hide();
                 $('.loader').show();
 
-                // Make prediction by calling api /predict
+
                 $.ajax({
                     type: 'POST',
                     url: '/predict',
@@ -91,29 +90,25 @@
                     processData: false,
                     async: true,
                     success: function (data) {
-                        // Get and display the result
+
                         $('.loader').hide();
                         $('#result').fadeIn(600);
                         $('#result').text(' Result:  ' + data);
 
-                        // Show the button container
-                        $('#button-container').show();
 
+                        $('#button-container').show();
                         console.log('Success!');
                     },
                 });
             });
 
-            // Add event listener for Send SMS button
+
             $('#btn-send-sms').click(function () {
-                // Open the SMS page in a new tab
                 window.open('sms.html', '_blank');
             });
 
-            // Add event listener for Reset Form button
+
             $('#btn-upload').click(function () {
-                // Here you can add logic to reset the form
-                // For example:
                 $('#imageUpload').val('');
                 $('.image-section').hide();
                 $('#result').hide();
@@ -123,18 +118,6 @@
         });
     </script>
 
-    <script>
-        var modal = document.getElementById("myModal");
-        var span = document.getElementsByClassName("close")[0];
-        function closeModal() {
-            modal.style.display = "none";
-        }
-        window.onload = function () {
-            var label = "{{ label }}";
-            modal.style.display = "block";
-        };
-        span.onclick = closeModal;
-    </script>
 </body>
 
 </html>
