@@ -184,6 +184,7 @@ def upload():
         return result
     return None
 
+
 @app.route("/sms.html")
 def sms():
     return render_template("sms.html")
@@ -192,12 +193,12 @@ def sms():
 @app.route("/Send_Sms", methods=["POST"])
 def Send_Sms():
     msg = request.form.get("disease")
-    account_sid = "ACC_SID"
-    auth_token = "ACC_TOKEN"
+    account_sid = "Acc_SID"
+    auth_token = "AUT_TOKEN"
     client = Client(account_sid, auth_token)
 
-    message = client.messages.create(from_="+14123019052", body=msg, to="MOB_NUMBER")
-    return render_template("index.html")
+    message = client.messages.create(from_="+14123019052", body=msg, to="PHONE_NUM")
+    return render_template("Diagnosure.html")
 
 
 if __name__ == "__main__":

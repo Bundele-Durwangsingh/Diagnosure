@@ -1,211 +1,352 @@
 .sure {
-    margin-top: 2px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Do Hyeon';
-    font-weight: 400;
-    font-size: 48px;
-    color: #595BF2;
-  }
-  .select-disease {
-    margin-bottom: 94px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 36px;
-    color: #000000;
-  }
-  .heart-disease {
-    margin: 0 0 20px 134.6px;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 32px;
-    color: #000000;
-    margin-right: -10px;
-  }
-  .heart-disease-sub7 {
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-  }
-  .lung-cancer {
-    margin: 0 0 20px 110.4px;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 32px;
-    color: #000000;
-    margin-right: -15px;
-  }
-  .lung-cancer-sub11 {
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-  }
-  .diabetes {
-    margin: 0 0 20px 63.8px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    font-size: 32px;
-    color: #000000;
-  }
-  .brain-tumor {
-    margin: 0 0 158px 117.3px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    font-size: 32px;
-    color: #000000;
-  }
-  .sms {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 34px 117px 204px 117px;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .logo-title {
-    margin: 0 3px 60px 3px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .web-logo {
-    border-radius: 43.5px;
-    background: #595BF2;
-    position: relative;
-    margin-right: 9px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 16px 18px 21px 19px;
-    width: 87px;
-    height: 87px;
-    box-sizing: border-box;
-  }
-  .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-  }
-  .programmer-1 {
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/3SNwU4qdTDBSZdNXP8uStt/assets/images/4b007905ea817446c5b71be4b2199eb7f073f2f7?Expires=1711121932&KeyName=fn12-cdn&Signature=lI8Zc_JUlM9EPHQcyYTVCOrO4W4=') 50% / cover no-repeat;
-    width: 50px;
-    height: 50px;
-  }
-  .title {
-    margin: 17px 0 8px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .diagno {
-    margin: 0 0.1px 2px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Do Hyeon';
-    font-weight: 400;
-    font-size: 48px;
-    color: #000000;
-  }
-  .explore-button {
-    border-radius: 17px;
-    background: #595BF2;
-    position: relative;
-    margin-right: 225px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 18px 0 19px 0;
-    width: 225px;
-    box-sizing: border-box;
-  }
-  .explor {
-    overflow-wrap: break-word;
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    font-size: 33px;
-    color: #000000;
-  }
+  margin-top: 2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Do Hyeon';
+  font-weight: 400;
+  font-size: 48px;
+  color: #595BF2;
+}
+
+.select-disease {
+  margin-bottom: 94px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.heart-disease {
+  margin: 0 0 20px 0px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  margin-right: -10px;
+}
+
+.heart-disease-sub7 {
+  font-family: 'Titillium Web';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.333;
+}
+
+.lung-cancer {
+  margin: 0 0 20px 110.4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  /* font-weight: 700; */
+  font-size: 32px;
+  color: #000000;
+  margin-right: -15px;
+}
+
+.lung-cancer-sub11 {
+  font-family: 'Titillium Web';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.333;
+}
+
+.diabetes {
+  margin: 0 0 20px 63.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Titillium Web';
+  /* font-weight: 700; */
+  font-size: 32px;
+  color: #000000;
+}
+
+.brain-tumor {
+  margin: 0 0 158px 117.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Titillium Web';
+  /* font-weight: 700; */
+  font-size: 32px;
+  color: #000000;
+}
+
+.sms {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 117px 204px 117px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.logo-title {
+  margin: 0 3px 60px 3px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.web-logo {
+  border-radius: 43.5px;
+  background: #595BF2;
+  position: relative;
+  margin-right: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 18px 21px 19px;
+  width: 87px;
+  height: 87px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.programmer-1 {
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/3SNwU4qdTDBSZdNXP8uStt/assets/images/4b007905ea817446c5b71be4b2199eb7f073f2f7?Expires=1711121932&KeyName=fn12-cdn&Signature=lI8Zc_JUlM9EPHQcyYTVCOrO4W4=') 50% / cover no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  margin: 17px 0 8px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.diagno {
+  margin: 0 0.1px 2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Do Hyeon';
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+}
+
+.explore-button {
+  border-radius: 17px;
+  background: #595BF2;
+  position: relative;
+  margin-right: 225px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18px 0 19px 0;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.explor {
+  overflow-wrap: break-word;
+  font-family: 'Titillium Web';
+  font-weight: 700;
+  font-size: 33px;
+  color: #000000;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
-   
-   input[type="radio"] {
-    margin-right: 35px;
-   }
-   
-   button[type="submit"] {
-    background: #595BF2;
-    color: #FFFFFF;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-family: 'Titillium Web';
-    font-weight: 700;
-    font-size: 33px;
-   }
-   
-   button[type="submit"]:hover {
-    background: #3A3FF2;
-   }
-   
-   .sure, .diagno {
-    font-family: 'Do Hyeon', sans-serif;
-   }
-   
-   /* Example of using Source Sans Pro for a new element */
-   .new-element {
-    font-family: 'Source Sans Pro', sans-serif;
-   }
-   
-   /* Example of using Inter with a different font weight for .select-disease */
-   .select-disease {
-    font-family: 'Inter', sans-serif;
-    font-weight: 900; /* Adjust the font weight as needed */
-   }
-   
-   /* Example of using Inter with a different font weight for .heart-disease */
-   .heart-disease {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400; /* Adjust the font weight as needed */
-   }
-   /* Existing CSS */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+input[type="radio"] {
+  margin-right: 35px;
+}
+
+button[type="submit"] {
+  background: #595BF2;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Titillium Web';
+  font-weight: 700;
+  font-size: 33px;
+}
+
+button[type="submit"]:hover {
+  background: #3A3FF2;
+}
+
+.sure,
+.diagno {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+/* Example of using Source Sans Pro for a new element */
+.new-element {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Example of using Inter with a different font weight for .select-disease */
+.select-disease {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  /* Adjust the font weight as needed */
+}
+
+/* Example of using Inter with a different font weight for .heart-disease */
+.heart-disease {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  /* Adjust the font weight as needed */
+}
+
+/* Existing CSS */
 
 /* Set a consistent font size for all text elements */
-.sure, .diagno, .select-disease, .heart-disease, .lung-cancer, .diabetes, .brain-tumor, .explor {
-  font-size: 32px; /* Adjust this value to your desired size */
- }
- 
- /* Ensure Heart Disease and Lung Cancer are not bolder than other text */
- .heart-disease, .lung-cancer {
-  font-weight: 400; /* Adjust this value to match the desired boldness */
- }
- 
- /* Example of using a specific font family for all text elements */
- .sure, .diagno, .select-disease, .heart-disease, .lung-cancer, .diabetes, .brain-tumor, .explor {
+.sure,
+.diagno,
+.select-disease,
+.heart-disease,
+.lung-cancer,
+.diabetes,
+.brain-tumor,
+.explor {
+  font-size: 32px;
+  /* Adjust this value to your desired size */
+}
+
+/* Ensure Heart Disease and Lung Cancer are not bolder than other text */
+.heart-disease,
+.lung-cancer {
+  font-weight: 400;
+  /* Adjust this value to match the desired boldness */
+}
+
+/* Example of using a specific font family for all text elements */
+.sure,
+.diagno,
+.select-disease,
+.heart-disease,
+.lung-cancer,
+.diabetes,
+.brain-tumor,
+.explor {
   font-family: 'Inter', sans-serif;
- }
- 
- /* Adjust the font weight for the entire form to ensure consistency */
- form {
-  font-weight: 400; /* Adjust this value to match the desired boldness */
- }
-    
+}
+
+/* Adjust the font weight for the entire form to ensure consistency */
+form {
+  font-weight: 400;
+  margin-left: 22rem;
+  /* Adjust this value to match the desired boldness */
+}
+
+.dieates-rns {
+  box-sizing: border-box;
+  padding: 3.4rem 47.612rem 3.4rem 12rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.dieates-rns .logotitle-bEf {
+  margin-right: 20.5rem;
+  height: 8.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.dieates-rns .logotitle-bEf .weblogo-Li3 {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding: 1.6rem 1.8rem 2.1rem 1.9rem;
+  height: 100%;
+  background-color: #595af1;
+  border-radius: 4.35rem;
+  flex-shrink: 0;
+}
+
+.dieates-rns .logotitle-bEf .weblogo-Li3 .programmer-1-fkK {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.dieates-rns .logotitle-bEf .title-1JP {
+  margin: 1.7rem 0rem 0.8rem 0rem;
+  height: calc(100% - 2.5rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.dieates-rns .logotitle-bEf .title-1JP .diagno-9Qb {
+
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.dieates-rns .logotitle-bEf .title-1JP .sure-gQX {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #595af1;
+  font-family: Do Hyeon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.dieates-rns .diabetes-prediction-R7D {
+  margin: 9.1rem 1.7rem 0rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2125;
+  color: #595af1;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: -55px;
+}
+
+.dieates-rns .dpicon-8nK {
+  margin-bottom: 74.3986rem;
+  box-sizing: border-box;
+  padding: 0.874rem 0.854rem 0.665rem 0.712rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-3-mTD.png');
+  flex-shrink: 0;
+}
+
+.dieates-rns .dpicon-8nK .blood-test-1-sju {
+  width: 3.5228rem;
+  height: 3.4625rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+#diseaseForm {
+  & P {
+    margin-left: 0px;
+  }
+}

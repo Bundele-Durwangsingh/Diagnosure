@@ -1,20 +1,26 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
+
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+
+ul,
+li {
+  list-style: none;
 }
+
 input {
-	border: none;
+  border: none;
 }
+
 body {
   width: 144rem;
-}.dieates-rns {
+}
+
+.dieates-rns {
   box-sizing: border-box;
   padding: 3.4rem 47.612rem 3.4rem 12rem;
   width: 100%;
@@ -24,6 +30,7 @@ body {
   align-items: flex-start;
   background-color: #ffffff;
 }
+
 .dieates-rns .logotitle-bEf {
   margin-right: 20.5rem;
   height: 8.7rem;
@@ -31,6 +38,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
+
 .dieates-rns .logotitle-bEf .weblogo-Li3 {
   margin-right: 0.9rem;
   box-sizing: border-box;
@@ -40,12 +48,14 @@ body {
   border-radius: 4.35rem;
   flex-shrink: 0;
 }
+
 .dieates-rns .logotitle-bEf .weblogo-Li3 .programmer-1-fkK {
   width: 5rem;
   height: 5rem;
   object-fit: cover;
   vertical-align: top;
 }
+
 .dieates-rns .logotitle-bEf .title-1JP {
   margin: 1.7rem 0rem 0.8rem 0rem;
   height: calc(100% - 2.5rem);
@@ -53,6 +63,7 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
+
 .dieates-rns .logotitle-bEf .title-1JP .diagno-9Qb {
   margin-bottom: 0.2rem;
   font-size: 4.8rem;
@@ -63,6 +74,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .dieates-rns .logotitle-bEf .title-1JP .sure-gQX {
   margin-top: 0.2rem;
   font-size: 4.8rem;
@@ -73,6 +85,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .dieates-rns .diabetes-prediction-R7D {
   margin: 9.1rem 1.7rem 0rem 0rem;
   font-size: 2.5rem;
@@ -84,6 +97,7 @@ body {
   flex-shrink: 0;
   margin-left: -55px;
 }
+
 .dieates-rns .dpicon-8nK {
   margin-bottom: 74.3986rem;
   box-sizing: border-box;
@@ -94,20 +108,23 @@ body {
   background-image: url('../assets/ellipse-3-mTD.png');
   flex-shrink: 0;
 }
+
 .dieates-rns .dpicon-8nK .blood-test-1-sju {
   width: 3.5228rem;
   height: 3.4625rem;
   object-fit: cover;
   vertical-align: top;
 }
+
 .form-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: -30px;
 }
+
 form {
   max-width: 500px;
   margin: 0 auto;
@@ -119,7 +136,7 @@ form {
   font-size: medium;
 }
 
-label{
+label {
   display: block;
   margin-bottom: 5px;
   color: #333333;
@@ -128,15 +145,15 @@ label{
 
 input {
   padding: 5px;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-family: Inter, 'Source Sans Pro';
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-family: Inter, 'Source Sans Pro';
 }
 
 input[type="submit"] {
-  background-color:  #595af1;
+  background-color: #595af1;
   color: #ffffff;
   border: none;
   border-radius: 3px;
@@ -152,28 +169,43 @@ input[type="submit"]:hover {
 }
 
 .modal {
-  display: none; /* Initially hidden */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  /* Initially hidden */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.4); /* Transparent black background */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Transparent black background */
 }
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 .modal-content {
@@ -233,7 +265,7 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-button{
+button {
   background-color: #595af1;
   color: #ffffff;
   border: none;
@@ -244,6 +276,7 @@ button{
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.button-container{
+
+.button-container {
   margin-top: 15px;
 }

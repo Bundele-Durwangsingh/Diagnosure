@@ -4,29 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='image/logo.png') }}" />
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Do+Hyeon%3A400" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C900" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A900" />
-    <<link rel="stylesheet" href="{{ url_for('static',filename='styles/sms.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/sms.css') }}" />
 </head>
 
 <body>
-    <div class="sms">
-        <div class="logo-title">
-            <div class="web-logo">
-                <div class="logo">
-                    <div class="programmer-1">
-                    </div>
-                </div>
+    <div class="dieates-rns">
+        <div class="logotitle-bEf">
+            <div class="weblogo-Li3">
+                <img class="programmer-1-fkK" src="{{ url_for('static', filename='image/programmer.png') }}" />
             </div>
-            <div class="title">
-                <div class="diagno">
-                    Diagno
-                </div>
-                <div class="sure">
-                    Sure
-                </div>
+            <div class="title-1JP">
+                <p class="diagno-9Qb">Diagno</p>
+                <p class="sure-gQX">Sure</p>
             </div>
         </div>
         <form id="diseaseForm" action="/Send_Sms" method="post">
@@ -58,7 +52,7 @@
                     Submit
                 </button>
             </div>
-        </form>
+        </form>`
     </div>
 
 </body>
