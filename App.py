@@ -193,10 +193,10 @@ def sms():
 @app.route("/Send_Sms", methods=["POST"])
 def Send_Sms():
     msg = request.form.get("disease")
-    account_sid = "ACC_SID"
-    auth_token = "AUTH_TOK"
+    account_sid = 'Your Account SID'
+    auth_token = 'Your Auth Token'
     client = Client(account_sid, auth_token)
-    message = client.messages.create(from_="+14123019052", body=msg, to="MOB_N0")
+    message = client.messages.create(from_="+12316743718", body=msg, to="your Mobile Number")
     return render_template("Diagnosure.html")
 
 

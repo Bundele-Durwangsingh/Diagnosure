@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-df = pd.read_csv("D:\project\Integrated Health Prognosis using Deep Learning\Data\diabetes_prediction_dataset.csv")
+df = pd.read_csv("diabetes_prediction_dataset.csv")
 df['gender']= df['gender'].apply({'Male':1, 'Female':0}.get)
 df['smoking_history']= df['smoking_history'].apply({'No Info':0,'never':1,'former':2,'not current':3,'ever':4,'current':5}.get)
 df['age'] = df['age'].astype(np.int64)

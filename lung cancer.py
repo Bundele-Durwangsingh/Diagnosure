@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-df = pd.read_csv("D:\project\Integrated Health Prognosis using Deep Learning\Data\lc.csv")
+df = pd.read_csv("lc.csv")
 df.head()
 
 ds= pd.DataFrame(df)

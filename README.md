@@ -29,18 +29,25 @@ The system architecture involves a user interface where medical staff can input 
 4. **Result Display**: The predictive results are displayed to the user.
 5. **Notification**: Optionally, the system sends a list of preventive measures to the patient via SMS.
 
-## Results
-- **Heart Disease Prediction Accuracy**: 82%
-- **Lung Cancer Prediction Accuracy**: 89%
-- **Diabetes Prediction Accuracy**: 97%
-- **Brain Tumor Detection Accuracy**: 91%
+## Output Screens
 
-## Future Work
-- **Expansion**: Integrate more diseases for prediction.
-- **Mobile App Development**: Develop a mobile application for easier access.
-- **Integration with EHR**: Connect with electronic health records for seamless data flow.
-- **Algorithm Improvement**: Enhance existing algorithms and develop new ones using deep learning.
-- **Personalized Treatment**: Provide personalized treatment recommendations based on predictive results.
+### Home Screen
+![Home Screen](image/Home%20screen.png)
+![About Us](image/About%20us.png)
+![Expert](image/Expert%20.png)
+![Contact Us](image/Contact%20us.png)
 
-## Conclusion
-The Integrated Healthcare Prognosis System aims to assist in the early detection of critical diseases, thereby reducing the burden on healthcare systems and promoting patient well-being through timely and preventive measures.
+### Disease Selection
+![Disease Selection](image/Disease%20selection.png)
+![Disease Form](image/Disease%20form.png)
+![Prediction Output](image/Predection%20output.png)
+![Brain Tumor Input](image/Brain%20tumour%20input.png)
+![Brain Tumor Output](image/brain%20tumour%20output.png)
+
+### SMS Notifications
+![Send SMS Page](image/Send%20sms%20page.png)
+![Received SMS](image/Received%20sms.jpg)
+![Remedy for Heart Disease](image/Remedy%20for%20heart%20disease.jpg)
+![Remedy for Lung Cancer](image/Remedy%20for%20lung%20cancer.jpg)
+![Remedy for Diabetes](image/Remedy%20for%20diabetes.jpg)
+![Remedy for Brain Tumor](image/Remendy%20for%20brain%20tumour.jpg)
