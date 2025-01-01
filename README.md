@@ -31,7 +31,7 @@ The system architecture involves a user interface where medical staff can input 
 
 ## Output Screens
 
-### Home Screen
+### Home page
 ![Home Screen](image/Home%20screen.png)
 ![About Us](image/About%20us.png)
 ![Expert](image/Expert%20.png)
