@@ -32,22 +32,22 @@ The system architecture involves a user interface where medical staff can input 
 ## Output Screens
 
 ### Home page
-![Home Screen](image/Home%20screen.png)
-![About Us](image/About%20us.png)
-![Expert](image/Expert%20.png)
-![Contact Us](image/Contact%20us.png)
+![Home Screen](Image/Home%20screen.png)
+![About Us](Image/About%20us.png)
+![Expert](Image/Expert%20.png)
+![Contact Us](Image/Contact%20us.png)
 
 ### Disease Selection
-![Disease Selection](image/Disease%20selection.png)
-![Disease Form](image/Disease%20form.png)
-![Prediction Output](image/Predection%20output.png)
-![Brain Tumor Input](image/Brain%20tumour%20input.png)
-![Brain Tumor Output](image/brain%20tumour%20output.png)
+![Disease Selection](Image/Disease%20selection.png)
+![Disease Form](Image/Disease%20form.png)
+![Prediction Output](Image/Predection%20output.png)
+![Brain Tumor Input](Image/Brain%20tumour%20input.png)
+![Brain Tumor Output](Image/brain%20tumour%20output.png)
 
 ### SMS Notifications
-![Send SMS Page](image/Send%20sms%20page.png)
-![Received SMS](image/Received%20sms.jpg)
-![Remedy for Heart Disease](image/Remedy%20for%20heart%20disease.jpg)
-![Remedy for Lung Cancer](image/Remedy%20for%20lung%20cancer.jpg)
-![Remedy for Diabetes](image/Remedy%20for%20diabetes.jpg)
-![Remedy for Brain Tumor](image/Remendy%20for%20brain%20tumour.jpg)
+![Send SMS Page](Image/Send%20sms%20page.png)
+![Received SMS](Image/Received%20sms.jpg)
+![Remedy for Heart Disease](Image/Remedy%20for%20heart%20disease.jpg)
+![Remedy for Lung Cancer](Image/Remedy%20for%20lung%20cancer.jpg)
+![Remedy for Diabetes](Image/Remedy%20for%20diabetes.jpg)
+![Remedy for Brain Tumor](Image/Remendy%20for%20brain%20tumour.jpg)
