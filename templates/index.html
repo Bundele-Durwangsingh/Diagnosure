@@ -328,47 +328,43 @@
     </div>
   </div>
   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw2m7BuaGUo2D45z-GIdSASz27zbzhdw2B14NSkIX6Ws5MUKoxwm9tB94tgeRumJT3A/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbym2EduTpAb6PVmu98VuAFbL2-OPuHCXStEnXADAIPecQ2gvwHezmwuW3i8qk_LcPKb/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
 
     form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          msg.innerHTML = "Thank you your details has be recorded"
-          setTimeout(function () {
-            msg.innerHTML = ""
-          }, 5000)
-          form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Thank you your details has be recorded"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
     })
-  </script>
+</script>
   <script>
-    // Get the modal
+
     var modal = document.getElementById("myModal");
 
-    // Get the button that opens the modal
+
     var btn = document.getElementsByClassName("explor-9Nu")[0];
 
-    // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
     }
 
-    // Function to open the modal
     function openModal() {
       modal.style.display = "block";
     }
 
-    // Function to handle button click
     function buttonClicked(buttonName) {
       alert("You clicked on: " + buttonName);
-      // Here, you can implement the functionality you want when a button is clicked
-      // For example, you can navigate to a different page or perform an action based on the button clicked
+
     }
 
 
